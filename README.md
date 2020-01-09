@@ -1,7 +1,12 @@
 # Long-Short-Graph-Memory-Network
 Long-Short Graph Memory Network for Skeleton-based Action Recognition（WACV2020）
 
-Current studies have shown the effectiveness of long short-term memory network (LSTM) for skeleton-based human action recognition in capturing temporal and spatial features of the skeleton sequence. Nevertheless, it still remains challenging for LSTM to extract the latent structural dependency among nodes. In this paper, we introduce a new long-short graph memory network (LSGM) to improve the capability of LSTM to model the skeleton sequence - a type of graph data. Our proposed LSGM can learn high-level temporal-spatial features end-to-end, enabling LSTM to extract the spatial information that is neglected but intrinsic to the skeleton graph data. To improve the discriminative ability of the temporal and spatial module, we use a calibration module termed as graph temporal-spatial calibration (GTSC) to calibrate the learned temporal-spatial features. By integrating the two modules into the same framework, we obtain a stronger generalization capability in processing dynamic graph data and achieve a significant performance improvement on the NTU and SYSU dataset. Experimental results have validated the effectiveness of our proposed LSGM+GTSC model in extracting temporal and spatial information from dynamic graph data.
+Here we provide an implementation of the LSGM + GTSC model, 
+and we provide a reduced version of the SUSY data set for everyone to test the model easily. 
+If you want to run this model on the complete SYSU dataset,
+you just need to make a few changes in process_sysu_initial.py (we already mentioned in the .py file)
+Because the SYSU data set is small and our current model version algorithm is not stable enough,
+it may take several more trainings to achieve the desired effect.
 
 # Install
 To run this demo, you should install these dependencies:
