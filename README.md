@@ -1,5 +1,7 @@
 # Long-Short-Graph-Memory-Network
-Long-Short Graph Memory Network for Skeleton-based Action Recognition（WACV2020）
+Please cite our paper
+
+Junqin Huang, Zhenhuan Huang, Xiang Xiang, Xuan Gong,Baochang Zhang,  Long-Short Graph Memory Network for Skeleton-based Action Recognition（WACV2020）
 
 Here we provide an implementation of the LSGM + GTSC model, 
 and we provide a reduced version of the SUSY data set for everyone to test the model easily. 
