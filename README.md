@@ -24,3 +24,14 @@ python 3.6.8
 python process_sysu_initial.py
 python train.py
 ```
+
+# Cite
+```
+@inproceedings{huang2020long,
+  title={Long-Short Graph Memory Network for Skeleton-based Action Recognition},
+  author={Huang, Junqin and Xiang, Xiang and Gong, Xuan and Zhang, Baochang and others},
+  booktitle={The IEEE Winter Conference on Applications of Computer Vision},
+  pages={645--652},
+  year={2020}
+}
+```
